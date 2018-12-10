@@ -5,7 +5,7 @@ public class Zwrotnica {
     public Zwrotnica (){
         run = Typy.polozenie.minus;
         }
-    }
+
 
 
 }
