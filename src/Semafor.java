@@ -5,28 +5,29 @@ public class Semafor {
 
 
 
-    private Kolory.kolor upLight;
-    private Kolory.kolor stop;
-    private Kolory.kolor downLigh;
-    private Kolory.kolor belt;
+    private Typy.kolor upLight;
+    private Typy.kolor stop;
+    private Typy.kolor downLigh;
+    private Typy.kolor belt;
     boolean N;
 
 
-    public Semafor(Kolory.kolor gorne, Kolory.kolor dolne, Kolory.kolor pas, boolean N){
-        upLight=gorne;
-        downLigh=dolne;
-        belt=pas;
-        this.N=N;
+    public Semafor(){
+        upLight= Typy.kolor.czerwony;
+        downLigh= Typy.kolor.brak;
+        belt= Typy.kolor.brak;
+        N=false;
+        stop= Typy.kolor.brak;
 
     }
 
-    private  void setLight(){
+    private  void setSemafor(){
 
     }
 
-    private Kolory.predkosc getSpeed(Kolory.kolor gorne, Kolory.kolor dolne, Kolory.kolor pas){
-        Kolory.predkosc V= Kolory.predkosc.stop;
-        
+    private Typy.predkosc getSemafor(Typy.kolor gorne, Typy.kolor dolne, Typy.kolor pas){
+        Typy.predkosc V= Typy.predkosc.stop;
+
         return V;
     }
 
