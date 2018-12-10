@@ -7,6 +7,16 @@ public class Stacja {
         Semafor samaforC = new Semafor();
         Semafor pusty = new Semafor();
 
+
+
+    }
+
+    private void stanStacji(){
+
+    }
+
+    private void wyswietl(){
+
     }
 
 }
