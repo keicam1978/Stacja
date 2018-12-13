@@ -20,6 +20,8 @@ public class Semafor {
 
     private  void setSemafor(Typy.predkosc speed, Typy.sem next){
 
+
+
     }
 
     private Typy.predkosc getPredkosc(Typy.kolor gorne, Typy.kolor dolne, Typy.kolor pas){

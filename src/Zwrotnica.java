@@ -1,11 +1,22 @@
 public class Zwrotnica {
 
-    private Typy.polozenie run;
+    private boolean stan;
 
     public Zwrotnica (){
-        run = Typy.polozenie.minus;
+        stan = true;
         }
 
+    public boolean getStanZwr(Zwrotnica x)
+    {
+       return x.stan;
+    }
 
+
+    public void setStanZwr(boolean x)
+    {
+       //if (x.stan) x.stan=false;
+       //else x.stan=true;
+       stan = x;
+    }
 
 }
